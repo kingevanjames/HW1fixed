@@ -215,7 +215,7 @@ INSERT INTO characters (
 
 SELECT movies.title, movies.year, movies.mpaa_rating, studios.name
 FROM movies
-INNER JOIN studios on movies.studio_id = studios.id;
+INNER JOIN studios ON movies.studio_id = studios.id;
 
 
 -- Prints a header for the cast output
