@@ -212,6 +212,7 @@ INSERT INTO characters (
 -- The SQL statement for the movies output
 -- TODO!
 
+
 SELECT movies.title, movies.year, movies.mpaa_rating, studios.name
 FROM movies
 INNER JOIN studios on movies.studio_id = studios.id;
